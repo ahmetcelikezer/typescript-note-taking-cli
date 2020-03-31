@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "@atolye15/eslint-config-base-typescript"
+  ],
+  "rules": {
+    "class-methods-use-this": "off",
+    "import/prefer-default-export": "off"
+  }
+}

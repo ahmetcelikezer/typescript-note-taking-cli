@@ -1,0 +1,20 @@
+{
+  "name": "typescript-examples",
+  "version": "1.0.0",
+  "description": "Take notes from cli, this is typescript practice project",
+  "main": "app.js",
+  "repository": "git@github.com:ahmetcelikezer/typescript-note-taking-cli.git",
+  "author": "Ahmet <ahmet@celikezer.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@atolye15/eslint-config-base-typescript": "^1.1.1",
+    "@types/chalk": "^2.2.0",
+    "@types/node": "^13.9.8",
+    "@types/prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "prettier": "^2.0.2"
+  }
+}
