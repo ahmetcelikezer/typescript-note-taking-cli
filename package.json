@@ -7,14 +7,20 @@
   "author": "Ahmet <ahmet@celikezer.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "addnote": "node dist/app.js add",
+    "removenote": "node dist/app.js remove"
+  },
   "devDependencies": {
     "@atolye15/eslint-config-base-typescript": "^1.1.1",
     "@types/chalk": "^2.2.0",
     "@types/node": "^13.9.8",
-    "@types/prettier": "^1.19.1"
+    "@types/prettier": "^1.19.1",
+    "@types/yargs": "^15.0.4"
   },
   "dependencies": {
     "chalk": "^3.0.0",
-    "prettier": "^2.0.2"
+    "prettier": "^2.0.2",
+    "yargs": "^15.3.1"
   }
 }
