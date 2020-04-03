@@ -14,7 +14,7 @@ command('add', 'Adds a new note.', {
         demandOption: true,
         type: 'string',
     }
-}, function (argv) {
+}, (argv) => {
     if(new Note().addNote(argv.title, argv.text)) {
         console.log(green(`The new note "${argv.title}" added to your notes!`));
     } else {
@@ -28,7 +28,7 @@ command('remove', 'Removes a existent note.', {
         demandOption: true,
         type: 'string',
     }
-}, function (argv) {
+}, (argv) => {
     if (new Note().removeNote(argv.title)) {
         console.log(yellow(`Message has been removed titled has "${argv.title}".`));
     } else {

@@ -15,9 +15,7 @@ export class Note {
 
         let notes = Note.loadNotes();
 
-        const duplicatedNotes = notes.filter(function (note: Note) {
-            return note.title === title;
-        });
+        const duplicatedNotes = notes.filter((note: Note) => note.title === title);
 
         if (duplicatedNotes.length === 0) {
             notes.push({
@@ -35,7 +33,7 @@ export class Note {
         let matchedNoteCount: number = 0;
         let notes = Note.loadNotes();
 
-        const finalNotes = notes.filter(function (note: Note) {
+        const finalNotes = notes.filter((note: Note) => {
             if (note.title !== title) {
                 return true;
             }
